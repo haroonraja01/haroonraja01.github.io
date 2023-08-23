@@ -1,0 +1,17 @@
+# jemdoc: menu{MENU}{Publications.html}
+=Publications
+
+== Journals
+. Haroon Raja and Waheed U. Bajwa, “Distributed Mini-batch Krasulinas Method for Online PCA,” under preparation.
+. Haroon Raja and Waheed U. Bajwa "Cloud K-SVD: A Collaborative Dictionary Learning Algorithm for Big, Distributed Data" , IEEE Trans. Signal Process., vol. 64, no. 1, pp. 173-188, 2016.
+
+== Conferences
+. Haroon Raja, Waheed U. Bajwa, and Fauzia Ahmad, “Through-The-Wall Radar Imaging using a distributed quasi-Newton method,” in Proc. Asilomar Conf. Signals, Systems, and Computers, 2017.
+. Haroon Raja, Waheed U. Bajwa, Fauzia Ahmad, and Moeness G. Amin, “Parametric dic- tionary learning for TWRI using distributed particle swarm optimization,” in Proc. Radar Conference 2016.
+. Haroon Raja and Waheed U. Bajwa, “Learning overcomplete representations from distributed data: A brief review,” in Proc. SPIE Commercial + Scientific Sensing and Imaging Sympo- sium, 17 - 21 April, 2016.
+. Haroon Raja, Muhammad U Ilyas, Saad Saleh, Alex X Liu, and Hayder Radha“Detecting national political unrest on Twitter,” in Proc. of Intl. Conf. Comm. (ICC’ 16).
+. Haroon Raja and Waheed U. Bajwa, “A convergence analysis of distributed dictionary learning based on the K-SVD algorithm,” in Proc. IEEE Intl. Symp. Information Theory (ISIT'15), Hong Kong, Jun. 14-19, 2015.
+. Zahra Shakeri, Haroon Raja, and Waheed U. Bajwa “Dictionary learning based nonlinear classifier training from distributed data,” in Proc. 2nd IEEE Global Conf. Signal and Information Processing (GlobalSIP'14), Symposium on Network Theory, Atlanta, GA, Dec. 3-5, 2014.
+. Haroon Raja and Waheed U. Bajwa, “Cloud K-SVD: Computing data-adaptive representations in the cloud,” in Proc. 51st Annu. Allerton Conf. Communication, Control, and Computing, Monticello, IL, Oct. 2-4, 2013.
+. Haroon Raja and Saad B. Qaisar, "Rate-Distortion optimized transcoder selection for multimedia transmission in heterogeneous networks", Computational Science and Its Applications--ICCSA 2012, p. 407-418, 2012.
+. Hussain Kazmi and Haroon Raja, "Throughput enhancement by cross-layer header compression in WLANs" in Proc. of 16th Asia-Pacific Conference on Communications, vol., no., pp.329-333, Oct. 31-Nov. 3, 2010

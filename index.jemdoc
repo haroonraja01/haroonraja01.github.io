@@ -1,0 +1,13 @@
+# jemdoc: menu{MENU}{example.html}
+= Haroon Raja
+==
+~~
+{}{img_left}{PhotoHaroon.jpg}{}{240}{}{}
+PhD Candidate,\n
+[http://www.ece.rutgers.edu Electrical and Computer Engineering Department],\n
+Rutgers, the State University of New Jersey\n
+Email: [haroon.raja@rutgers.edu]
+~~
+
+== About Me
+I am a fifth year PhD student working with [http://www.inspirelab.us/people/ Prof. Waheed Bajwa]. My general research interests involve solving nonconvex optimization, low rank matrix recovery, and distributed information processing problems that appear in signal processing and machine learning applications. Prior to joining Rutgers I did my Masters and Bachelors from NUST, Pakistan, both in Electrical Engineering.

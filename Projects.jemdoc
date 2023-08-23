@@ -1,0 +1,12 @@
+# jemdoc: menu{MENU}{Projects.html}
+= Projects
+
+== Cloud K-SVD
+In this project we proposed a distributed variant of K-SVD algorithm which is a famous dictionary learning algorithm. We used consensus averaging to distribute the dictionary update phase of dictionary learning. We provided theoretical guarantees for convergence of cloud K-SVD to its centralized counterpart. Further, we performed numerical simulations to demonstrate the efficacy of proposed algorithm.
+
+== Mini-batching for online PCA
+In this work we considered problem of computing top eigenvector of a covariance matrix $\Sigma \in R^{d\times d}$ in online settings. Our main contribution in this project was providing theoretical guarantees for distributed mini-batch version of Krasulina’s method, which is a widely used method to solve online PCA. We show that if we choose mini-batch size, B, appropriately then the Krasulina’s method with mini-batching converges at $O(1/Bt)$ as opposed to the O(1/t) rate without using mini-batches. We then extend our analysis to take into account the latency in practical distributed systems and show that as long as we choose batch size greater than the number of samples lost due to latency, Krasulina’s method with mini-batching will asymptotically achieve the near optimal rate.
+
+== Distributed through the wall radar imaging
+In this project we consider a setup where multiple radar modules are located outside building trying to detect the objects inside. We also consider that wall locations are not known exactly which complicates the problem further. We propose distributed algorithms based on consensus strategies to estimate wall locations which then facilitates in detecting the objects.
+
