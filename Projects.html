@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Projects</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">My Page</div>
+<div class="menu-item"><a href="index.html">Homepage</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="Publications.html">Publications</a></div>
+<div class="menu-item"><a href="Projects.html" class="current">Projects</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Projects</h1>
+</div>
+<h2>Cloud K-SVD</h2>
+<p>This project solves dictionary learning problem when data is available at spatially distributed nodes in a network and the network does not exhibit a fully connected structure.For such settings, we proposed a decentralized variant of the K-SVD algorithm, which is one of the widely used dictionary learning method. Our first contribution was providing a decentralized solution, termed as cloud K-SVD, which uses consensus averaging to propose a decentralized variant of the K-SVD algorithm. Our main algorithmic contribution was an insight that in distributed settings if we have a good enough estimate of dictionary at each node then we can perform sparse representation step locally. In centralized settings, K-SVD updates each column of dictionary separately, by performing rank-1 approximation of some matrix. Since this matrix depends on sample data, which is distributed across different nodes, we proposed a decentralized variant of the power method to compute the rank-1 estimate. Our theoretical analysis showed that the proposed decentralized power method converges linearly to the principal eigenvector. In addition, using the tools from numerical linear algebra, convex optimization, matrix perturbation theory, etc., we performed the convergence analysis of the complete algorithms and it shows that if we perform enough iterations of consensus averaging cloud K-SVD converges to the same solution as the K-SVD algorithm. Our key contribution here was to explicitly characterize the algorithmic parameters, i.e., number of iterations of power method and consensus iterations to ensure convergence to the right solution. Finally, we provided simulations over synthetic and real world data to show the effectiveness of the cloud K-SVD algorithm. If you want to try cloud K-SVD out for your application MATLAB code can be found at: <a href="https://bitbucket.org/SigProcessing/code_rb-tsp2016"> https://bitbucket.org/SigProcessing/code_rb-tsp2016 </a> </p>
+<h2>Mini-batching for streaming PCA</h2>
+<p>This project deals with computing top eigenvector of a covariance matrix in high rate streaming settings. We consider high rate streaming settings to be when data arrival rate is faster than the processing rate and hence distributing the computation across multiple processing nodes is our only option. Krasulina’s method is one of the classical methods for computing top eigenvector in streaming settings. Our solution involves extending Krasulina’s method to high rate streaming settings which involves distributing Krasulina iterate computation across different computing nodes. Our important contribution here is of analytical nature which involves providing analysis for Krasulina’s method with mini-batching. Motivation for this work arise from improvements in convergence rate attained by applying mini-batching for convex optimization problems. Difficulty in analyzing mini-batch version of Krasulina’s methods is due to the nonconvexity of the PCA problem. To the best of our knowledge this will be the first result that provides finite sample guarantees for convergence to a second order stationary point with mini-batching.</p>
+<h2>Distributed through the wall radar imaging</h2>
+<p>In this project we consider a setup where multiple radar modules are located outside a building and their goal is to detect the objects inside. In practice wall locations are not known exactly which complicates the problem. In such settings, before we can start oject detection we need to estimate the wall locations. To solve this problem joint wall location estimation and object detection methods have been proposed in literature. Issue with these methods is that they need a centralized fusion center which can become infeasible in some practical situations. We propose decentralized algorithms based on consensus strategies to circumvent the need of fusion center.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-03-27 00:09:16 EDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
