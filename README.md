@@ -1,3 +1,3 @@
 # haroonraja01.github.io
 
-Personal website describing my past projects.
+Code for my personal website describing my past research projects.
